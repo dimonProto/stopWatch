@@ -1,6 +1,6 @@
 {
   "name": "stopwatch",
-  "homepage": "http://dimonProto.github.io/stopwatch",
+  "homepage": "http://dimonProto.github.io/stopWatch",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
