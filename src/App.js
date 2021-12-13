@@ -50,6 +50,11 @@ function App() {
         setTime(0);
         setWatchOn(false);
     }
+    const handleResetAndStart = () => {
+        setTime(0);
+        setWatchOn(false);
+        setWatchOn(true);
+    }
 
     return (
         <div className={'App'}>
@@ -58,6 +63,7 @@ function App() {
                 watchOn={watchOn}
                 handleReset={handleReset}
                 handleStart={handleStart}
+                handleResetAndStart={handleResetAndStart}
                 waitButton={waitButton}
             />
         </div>

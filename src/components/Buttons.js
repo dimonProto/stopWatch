@@ -1,6 +1,6 @@
 import React from "react";
 
-const Buttons = ({watchOn,handleReset,handleStart,waitButton}) => {
+const Buttons = ({watchOn,handleReset,handleStart,waitButton,handleResetAndStart}) => {
     return (
         <div className={'btnGroup'}>
             {
@@ -10,7 +10,7 @@ const Buttons = ({watchOn,handleReset,handleStart,waitButton}) => {
                     <button className={'btn'} onClick={ handleStart}>Start</button>
                 )
             }
-            <button className={'btn'} onClick={handleReset}>reset</button>
+            <button className={'btn'} onClick={handleResetAndStart}>reset</button>
             <button className={'btn'} ref={waitButton}>wait</button>
         </div>
     )
